@@ -1,0 +1,93 @@
+@charset "UTF-8" ;
+.hidden {display: none;}
+
+p {
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+div,p,body,header,footer,section,article,nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#hero {
+  height: 20em;
+  font-size: large;
+    overflow: hidden;
+    border-bottom: solid 1px #DDD;
+    background-color: #000;
+}
+
+#songsearch {
+    height: 10em;
+    font-size: large;
+      overflow: hidden;
+      border-bottom: solid 1px #DDD;
+      background-color: #000;
+  }
+
+
+#mainHeader {
+    overflow: hidden;
+    border-bottom: solid 1px #DDD;
+    background-color: #000;
+}
+
+
+#mixer {
+    height: 30em;
+  
+    font-size: large;
+      overflow: hidden;
+      border-bottom: solid 1px #DDD;
+      background-color: #000;
+  }
+
+.two-item {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    row-gap: 1em;
+ }
+
+#logo { 
+    width: 200px;
+    float: left;
+}
+
+#mainNav{
+    float: right;
+    width: 500px;
+}
+
+
+
+
+
+
+#mainFooter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    height: 10em;
+  
+    font-size: large;
+      overflow: hidden;
+      border-bottom: solid 1px #DDD;
+      background-color: #000;
+}
+

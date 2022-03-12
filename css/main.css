@@ -32,12 +32,29 @@ div,p,body,header,footer,section,article,nav {
 }
 
 #songsearch {
-    height: 10em;
-    font-size: large;
-      overflow: hidden;
-      border-bottom: solid 1px #DDD;
-      background-color: #000;
+   
+        display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        row-gap: 1em;
+        background-color: #074214;
+       
+    
+    
   }
+
+  #songsearch img {
+      margin-top: 1em;
+      margin-left: 8em;
+  }
+
+  #songsearch p {
+      margin-top: 0em;
+    margin-right: 2em;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2em;
+}
 
 
 #mainHeader {
@@ -47,15 +64,23 @@ div,p,body,header,footer,section,article,nav {
 }
 
 
-#mixer {
-    height: 30em;
-  
-    font-size: large;
-      overflow: hidden;
-      border-bottom: solid 1px #DDD;
-      background-color: #000;
+.Mixer {
+    display: block;
+    height: 520px;
+
+  background-image:url('../images/backgrounddrop.jpg') ;
+  background-repeat: no-repeat;
+
   }
 
+  .grid {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    row-gap: 1em;
+  }
+  
 .two-item {
     display: grid;
     grid-column: 2 / span 2;
@@ -82,14 +107,14 @@ div,p,body,header,footer,section,article,nav {
 
 
 #mainFooter {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    
     overflow: hidden;
-    height: 10em;
-  
-    font-size: large;
-      overflow: hidden;
-      border-bottom: solid 1px #DDD;
-      background-color: #000;
+    height: 5em;
+      background-color: #074214;
+      font-family: 'League Gothic', sans-serif;
+      font-size: 2em;
 }
 
+#mainFooter p {
+    margin-top: 1em;
+}

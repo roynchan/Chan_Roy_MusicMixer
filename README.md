@@ -1,12 +1,31 @@
-FREESTYLE DJ MUSIC MIXER WEBSITE
+## Beyound Music Mixer by Roy Chan
 
-![Research_example](/Research_example/mixer1.jpeg)
+Beyound Music Mixer Website is a website for hip hop lover, a website to provide an experience for people to be a dj and a beat producer, with the drag and drop audio function you can create and mix and match your own beat.
 
-Freestyle Dj Music Mixer Website is a website where you can search for any song online and be a DJ and mix the song together all on your own!
 
-Technical requirements : *there will be a searching mechine for people to search their song 
-                         *there also need to be a music player machine in order for people to mix the song (play,stop,volume control.etc)
-                         *A record button for user to record the music they mixed
-                         *A shared button for people to share their final mix instantly 
+## Technical requirements : 
+- The website includes a drap and drop audio funtcion
+- Play/Pause/Rewind button should also be include 
+
+## Code Used
+- HTML
+- CSS
+- Javascript
+
+## RoadMap
+- Reasearching/Brainstorming
+- Wireframe design 
+- Assets/Images/Audio preparation
+- Html coding 
+- Css coding
+- Javascript coding
+- Final Checking
+
+## Autor 
+- Chan Chun Yip Roy
+
+
+
+
 
 

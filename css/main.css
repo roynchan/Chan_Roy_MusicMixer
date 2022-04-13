@@ -104,6 +104,7 @@ div,p,body,header,footer,section,article,nav {
 
 
 #buttonHolder  {
+    
     background-color: #0e521d;
    display: grid;
     grid-column: 2 / span 2;
@@ -119,6 +120,7 @@ font-family: 'League Gothic', sans-serif;
 
 
 #buttonHolder p:hover {
+    transform: scale(1.2);
     color: red;
     cursor: pointer;
     -webkit-transition: background 200ms linear;

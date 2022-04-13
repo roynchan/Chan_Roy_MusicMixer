@@ -103,6 +103,28 @@ div,p,body,header,footer,section,article,nav {
 
 
 
+#buttonHolder  {
+    background-color: #0e521d;
+   display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    row-gap:0em;
+}
+
+#buttonHolder p {color: white;
+font-size: x-large; 
+font-family: 'League Gothic', sans-serif;
+}
+
+
+#buttonHolder p:hover {
+    color: red;
+    cursor: pointer;
+    -webkit-transition: background 200ms linear;
+       -ms-transition: background 200ms linear;
+       transition: background 200ms linear;
+}
 
 
 

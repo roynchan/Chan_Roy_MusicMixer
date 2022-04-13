@@ -25,10 +25,13 @@
             <p>Drop Your Loops Into The DJ Desk !</p>
         </section>
     <section id="songsearch">
-       
-        <div><img dragable="true" src="images/guitar.png" alt="" height="200px"></div>
-        <div><img dragable="true" src="images/drum.png" alt="" height="200px"></div>
-        <div><img  dragable="true" src="images/bas.png" alt="" height="200px"></div>
+        <audio class="audio1"  src="" ></audio>
+        <audio class="audio3"   src="" ></audio>
+        <audio class="audio2" src="" ></audio>
+
+        <div><img class="melody" dragable="true" src="images/guitar.png" data-trackref="audio0" alt="audio" height="200px"></div>
+        <div><img class="drum"dragable="true" src="images/drum.png" data-trackref="audio1" alt="" height="200px"></div>
+        <div><img  class="bass" dragable="true" src="images/bas.png" data-trackref="audio2" alt="" height="200px"></div>
 
         <p class="name">Melody Loop</p>
         <p class="name">Drum Loop</p>
@@ -46,11 +49,11 @@
 		</div>
     </section>
 
-    <section class="hidden">
+    <section class="">
     <nav id="buttonHolder">
-        <audio src="audio/audio0.mp3" data-bgref="0" >
-            <audio src="audio/audio1.mp3" data-bgref="1" >
-                <audio src="audio/audio2.mp3" data-bgref="3" >
+   <p class="play">Play</p>
+   <p class="pause">Pause</p>
+   <p class="repeat">Repeat</p>
     </nav>
 </section>
 
